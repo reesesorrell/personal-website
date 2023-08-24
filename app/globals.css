@@ -22,3 +22,7 @@ html {
   overflow: hidden;
   height: 100%;
 }
+
+.h-screen-double {
+  height: 200vh;
+}
