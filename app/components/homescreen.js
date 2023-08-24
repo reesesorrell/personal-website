@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Image from 'next/image'
 
 export default function HomeScreen () {
     const [rendered, setRendered] = useState(false);
@@ -11,8 +12,18 @@ export default function HomeScreen () {
     }, [])
 
     return (
-        <div  className='background h-screen w-screen flex items-center justify-center'>
-            <div className={`${rendered ? 'name-active' : 'name-inactive'} tracking-wider first-name text-white text-8xl font-serif`}>Reese Sorrell</div>
+        <div  className='relative background h-screen w-screen flex items-center justify-center' id="home-screen">
+            <Image src="/scroll-down-white.png"
+                    width={50}
+                    height={50}
+                    alt="Picture of the author"
+                    className="absolute bottom-10 arrows" />
+            <Image src="/scroll-down-white.png"
+                    width={50}
+                    height={50}
+                    alt="Picture of the author"
+                    className="absolute bottom-14 arrows" />
+            <div className={`${rendered ? 'name-active' : 'name-inactive'}  first-name text-white text-8xl font-serif`}>Reese Sorrell</div>
         </div>
     )
 }
