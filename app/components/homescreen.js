@@ -12,7 +12,7 @@ export default function HomeScreen () {
 
     return (
         <div  className='background h-screen w-screen flex items-center justify-center'>
-            <div className={`${rendered ? 'name-active' : 'name-inactive'} first-name text-white text-4xl font-serif`}>Reese Sorrell</div>
+            <div className={`${rendered ? 'name-active' : 'name-inactive'} tracking-wider first-name text-white text-8xl font-serif`}>Reese Sorrell</div>
         </div>
     )
 }
