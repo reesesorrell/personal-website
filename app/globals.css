@@ -26,3 +26,11 @@ html {
 .h-screen-double {
   height: 200vh;
 }
+
+.name-active {
+  opacity: 1;
+}
+
+.name-inactive {
+  opacity: 0;
+}
