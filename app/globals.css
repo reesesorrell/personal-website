@@ -2,66 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
-  background-color: black;
+.page {
+  background-color: #10172a;
+  height: 100vh;
+  width: 100vw;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+.grey-color {
+  color: #6c7a93;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;
-  height: 100%;
-  overflow: auto;  /* Firefox */
-}
-
-html {
-  overflow: hidden;
-  height: 100%;
-}
-
-.h-screen-double {
-  height: 200vh;
-}
-
-.first-name {
-  animation: title-in 3s ease 0s 1;
-}
-
-@keyframes title-in {
-  0%   {scale: 6; opacity: 0;}
-  50%  {scale: .5; opacity: .2}
-  100% {scale: 1; opacity: 1;}
-}
-
-.arrows {
-  animation: arrows-down 4s ease-in-out 0s 1, arrows-shake 2s ease-in-out 4s infinite;
-  opacity: .9;
-}
-
-@keyframes arrows-down {
-  0%   {opacity: 0;}
-  60%  {opacity: 0; scale: 3;}
-  100% {opacity: .85; scale: 1;}
-}
-
-@keyframes arrows-shake {
-  0%   {scale: 1;}
-  50% {scale: .8;}
-  100%   {scale: 1;}
-}
-
-.nav-bar {
-  animation: nav-in 4s ease-in-out 0s 1;
-  opacity: .8;
-}
-
-@keyframes nav-in {
-  0%   {scale: 1; opacity: 0;}
-  55%  {scale: 4; opacity: 0;}
-  85%  {scale: .75;}
-  100% {scale: 1; opacity: .9;}
+.white-color {
+  color: #e2e8ef
 }

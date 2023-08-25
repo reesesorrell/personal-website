@@ -1,27 +1,18 @@
-export default function NavBar () {
-
-    const scrollToHome = () => {
-        document.getElementById("home-screen").scrollIntoView();
-    }
-
-    const scrollToAbout = () => {
-        document.getElementById("about-screen").scrollIntoView();
-    }
-
-    const scrollToProjects = () => {
-        document.getElementById("projects-screen").scrollIntoView();
-    }
-
-    const scrollToContact = () => {
-        document.getElementById("contact-screen").scrollIntoView();
-    }
-
-    return (
-        <div  className='nav-bar z-10 absolute top-0 h-32 w-screen flex items-center justify-around'>
-            <div className="text-white font-serif tracking-wide cursor-pointer" onClick={scrollToHome}>Home</div>
-            <div className="text-white font-serif tracking-wide cursor-pointer" onClick={scrollToAbout}>About</div>
-            <div className="text-white font-serif tracking-wide cursor-pointer" onClick={scrollToProjects}>Projects</div>
-            <div className="text-white font-serif tracking-wide cursor-pointer" onClick={scrollToContact}>Contact</div>
+export default function () {
+    return(
+        <div className="nav-section flex flex-col">
+            <div className="flex white-color pb-2">
+                <hr className="w-20 mr-3 mt-3"></hr>
+                <div>About</div>
+            </div>
+            <div className="flex grey-color pb-2">
+                <hr className="w-10 mr-3 mt-3"></hr>
+                <div>Projects</div>
+            </div>
+            <div className="flex grey-color pb-2">
+                <hr className="w-10 mr-3 mt-3"></hr>
+                <div>Skills</div>
+            </div>
         </div>
     )
 }

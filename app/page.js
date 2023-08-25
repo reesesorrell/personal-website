@@ -1,19 +1,13 @@
 "use client"
 
-import HomeScreen from "./components/homescreen"
-import AboutScreen from "./components/aboutscreen"
-import ProjectScreen from "./components/projectscreen"
-import ContactScreen from "./components/contactscreen"
-import NavBar from "./components/navbar"
+import LeftSideBar from "./components/leftsidebar"
+import RightContent from "./components/rightcontent"
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
-      <HomeScreen />
-      <AboutScreen />
-      <ProjectScreen />
-      <ContactScreen />
+    <div className="page flex justify-around">
+      <LeftSideBar />
+      <RightContent />
     </div>
   )
 }
