@@ -15,3 +15,16 @@
 .white-color {
   color: #e2e8ef
 }
+
+.right-side {
+  width: 32rem;
+}
+
+em {
+  color: #e2e8ef;
+  font-style: normal;
+}
+
+.tft:hover {
+  cursor:url(/public/small-chonc.png), auto;
+}

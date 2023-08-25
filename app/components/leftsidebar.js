@@ -2,7 +2,7 @@ import NavBar from "./navbar"
 
 export default function() {
     return(
-        <div className="flex flex-col py-24 items-start justify-between sticky top-0 w-96 ml-24">
+        <div className="flex flex-col py-24 items-start justify-between sticky top-0 w-96 ml-32">
             <div className="top-section h-3/5 flex flex-col justify-between">
                 <div className="info-section flex flex-col">
                     <div className="text-5xl white-color pb-3">Reese Sorrell</div>

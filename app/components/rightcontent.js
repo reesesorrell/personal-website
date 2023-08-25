@@ -1,35 +1,18 @@
 
+
 export default function() {
     return(
-        <div className="flex flex-col text-white">
-            <div className="top-section">
-                <div className="info-section">
-                    <div>Reese Sorrell</div>
-                    <div>Software Engineering at Mississippi State University</div>
-                    <div>I solve complex problems, work with other people, and communicate my ideas.</div>
+        <div className="right-side mr-32 pt-24">
+            <div className="about-me grey-color">
+                <div className="mb-6">
+                    In 2021, I discovered my passion for the world of programming, coding, and technology as a whole. Every since then I haven't been able to stop learning, growing, and now pursuing my interests through college studies where I get to take cool classes like <em>Data Structures</em> and <em>Computer Organization</em>.
                 </div>
-                <div className="nav-section">
-                    <div>
-                        <hr></hr>
-                        <div>About</div>
-                    </div>
-                    <div>
-                        <hr></hr>
-                        <div>Projects</div>
-                    </div>
-                    <div>
-                        <hr></hr>
-                        <div>Experience</div>
-                    </div>
+                <div className="mb-6">
+                    My main focus these days is succeeding in my classes while also doing <em>web development</em> and building cool sites like (hopefully) this one. I'm also in the process of <em>learning backend databases like MongoDB and SQL</em>.
                 </div>
-            </div>
-            <div className="bottom-section">
-                <div className="socials-holder">
-                    <div>Git</div>
-                    <div>Insta</div>
-                    <div>Link</div>
-                </div>
-            </div>
+                <div className="mb-6">
+                    When I’m not at the computer, I’m usually swimming laps, lifting weight, hanging out with my amazing girlfried, or rolling it down in <em className="tft">Teamfight Tactics</em>.</div>
+                </div> 
         </div>
     )
 }
