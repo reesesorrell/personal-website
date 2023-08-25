@@ -6,6 +6,21 @@
   background-color: #10172a;
   height: 100vh;
   width: 100vw;
+  position: relative;
+}
+
+.page::after {
+  /* all pseudo-elements need "content" to work. We'll make it empty here */
+  content: '';
+  position: absolute;
+  width: 1300px;
+  height: 1300px;
+  top: calc(var(--y, 0) * 1px - 650px);
+  left: calc(var(--x, 0) * 1px - 650px);
+  /* make sure the gradient isn't too bright */
+	opacity: 0.1;
+  /* add a circular gradient that fades out on the edges */
+	background: radial-gradient(rgb(25, 106, 255), #10172a 50%);
 }
 
 .grey-color {
@@ -17,7 +32,8 @@
 }
 
 .right-side {
-  width: 32rem;
+  width: 40rem;
+  overflow-y:auto;
 }
 
 em {
@@ -25,6 +41,11 @@ em {
   font-style: normal;
 }
 
+.tft {
+  position: relative;
+  z-index: 10;
+}
+
 .tft:hover {
-  cursor:url(/public/small-chonc.png), auto;
+  cursor:url(/small-chonc.png) 25 25, auto;
 }
