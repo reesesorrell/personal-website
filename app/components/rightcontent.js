@@ -11,8 +11,9 @@ export default function() {
                     My main focus these days is succeeding in my classes while also doing <em>web development</em> and building cool sites like (hopefully) this one. I'm also in the process of <em>learning backend databases like MongoDB and SQL</em>.
                 </div>
                 <div className="mb-6">
-                    When I’m not at the computer, I’m usually swimming laps, lifting weight, hanging out with my amazing girlfried, or rolling it down in <div className="tft inline"><em>Teamfight Tactics</em></div>.</div>
-                </div> 
+                    When I’m not at the computer, I’m usually swimming laps, lifting weight, hanging out with my amazing girlfried, or rolling it down in <div className="tft inline"><em>Teamfight Tactics</em></div>.
+                </div>
+            </div> 
         </div>
     )
 }
