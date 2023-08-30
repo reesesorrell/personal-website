@@ -9,6 +9,7 @@
   position: relative;
   overflow-y: hidden;
   overflow-x: hidden;
+  color: #6c7a93;
 }
 
 .page::after {
@@ -64,4 +65,19 @@ em {
 
 .nav-item:hover > hr {
   width: 5rem;
+}
+
+.skill-bubble {
+  display: inline-block;
+  font-size: 0.8rem; /* 12px */
+  line-height: 1.1rem; /* 16px */
+  background-color: #152a39;
+  color: #5dead4;
+  margin: 15px 2px 0;
+  padding: 5px 13px;
+  border-radius: 20px;
+}
+
+.project:hover {
+  background-color: #162034;
 }
