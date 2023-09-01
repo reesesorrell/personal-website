@@ -2,7 +2,8 @@ import ProjectSection from "./projectsection"
 
 export default function() {
     return(
-        <div className="right-side pr-32 pt-24">
+        <div className="right-side flex flex-col items-center">
+            <div className="right-container">
             <div className="about-me grey-color mb-24">
                 <div className="mb-6">
                     In 2021, I discovered my passion for the world of programming, coding, and technology as a whole. Every since then I haven't been able to stop learning, growing, and now pursuing my interests through college studies where I get to take cool classes like <em>Data Structures</em> and <em>Computer Organization</em>.
@@ -15,6 +16,7 @@ export default function() {
                 </div>
             </div> 
             <ProjectSection />
+            </div>
         </div>
     )
 }

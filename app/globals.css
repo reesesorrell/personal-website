@@ -36,10 +36,14 @@
 
 .right-side {
   width: 50rem;
-  padding: 5rem 15rem;
+  padding: 6rem 0;
   flex-grow: 2;
   z-index: 20;
   overflow-y: auto;
+}
+
+.right-container {
+  width: min(38rem, 50vw);
 }
 
 em {

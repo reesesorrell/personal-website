@@ -17,7 +17,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="page flex justify-between">
+    <div className="page flex justify-center">
       <LeftSideBar />
       <RightContent />
     </div>
